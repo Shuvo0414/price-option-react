@@ -64,8 +64,8 @@ const LineChart = () => {
   ];
 
   return (
-    <div>
-      <LChart width={900} height={400} data={studentMarksData}>
+    <div className=" flex justify-center">
+      <LChart width={1600} height={400} data={studentMarksData}>
         <XAxis dataKey={"name"}></XAxis>
         <YAxis></YAxis>
         <Line dataKey={"mathMarks"} stroke="blue"></Line>
