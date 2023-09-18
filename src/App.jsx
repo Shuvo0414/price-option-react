@@ -1,4 +1,5 @@
 import "./App.css";
+import LineChart from "./components/LineChart/LineChart";
 import Navbar from "./components/Navbar/Navbar";
 
 import PriceOptions from "./components/PriceOptions/PriceOptions";
@@ -9,6 +10,7 @@ function App() {
       <Navbar></Navbar>
       {/* <h1 className=" text-5xl">Vite + React</h1> */}
       <PriceOptions></PriceOptions>
+      <LineChart></LineChart>
     </>
   );
 }
